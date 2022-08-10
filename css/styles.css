@@ -1,0 +1,85 @@
+:root {
+    --primario: hsl(212, 45%, 89%);
+    --blanco: hsl(0, 0%, 100%);
+    --gris-azul: hsl(220, 15%, 55%);
+    --azul-oscuro: hsl(218, 44%, 22%);
+    --fuente-principal: 'Outfit', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--primario);
+    font-size: 16rem;
+    line-height: 1.5;
+}
+
+/* Titulo */
+/* .titulo {
+    text-align: center;
+    color: var(--blanco);
+    font-family: var(--fuente-principal);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+} */
+
+/* QR */
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor .card {
+    max-width: 64rem;
+    padding: 3rem;
+    margin: 9rem auto;
+    background-color: var(--blanco);
+    border-radius: 3rem;
+}
+
+.card__texto {
+    margin: 0;
+    padding: 1rem;
+}
+
+.card__texto h3 {
+    text-align: center;
+    color: var(--azul-oscuro);
+    font-family: var(--fuente-principal);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card__texto p {
+    text-align: center;
+    color: var(--gris-azul);
+    font-family: var(--fuente-principal);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.card img {
+    border-radius: 2rem;
+    width: 100%;
+}
+
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
