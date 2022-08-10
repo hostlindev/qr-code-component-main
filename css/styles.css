@@ -43,9 +43,15 @@ body {
 .contenedor .card {
     max-width: 64rem;
     padding: 3rem;
-    margin: 9rem auto;
+    margin: 3rem;
     background-color: var(--blanco);
     border-radius: 3rem;
+}
+
+@media (min-width: 768px) {
+    .contenedor .card {
+        margin: 10rem;
+    }
 }
 
 .card__texto {
